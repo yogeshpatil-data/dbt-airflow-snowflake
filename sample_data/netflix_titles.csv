@@ -1,0 +1,6 @@
+show_id,type,title,director,cast,country,date_added,release_year,rating,duration,listed_in,description
+s1,Movie,The Irishman,Martin Scorsese,Robert De Niro; Al Pacino; Joe Pesci,United States,November 27, 2019,2019,R,209 min,Drama,"Hitman Frank Sheeran looks back at the secrets he kept as a loyal member of the Bufalino crime family."
+s2,TV Show,Stranger Things, ,Winona Ryder; David Harbour; Millie Bobby Brown,United States,July 15, 2016,2016,TV-14,3 Seasons,Sci-Fi,"A group of young friends witnesses supernatural forces and secret government exploits."
+s3,Movie,Bird Box,Susanne Bier,Sandra Bullock; Trevante Rhodes,United States,December 21, 2018,2018,R,124 min,Thriller,"A mysterious force decimates the population; only one thing is certain — if you see it, you die."
+s4,Movie,Extraction,Sam Hargrave,Chris Hemsworth; Rudhraksh Jaiswal,United States,April 24, 2020,2020,R,117 min,Action,"A black-market mercenary is hired to rescue the kidnapped son of an international crime lord."
+s5,TV Show,Money Heist (La Casa de Papel),Álex Pina,Úrsula Corberó; Álvaro Morte,Spain,May 2, 2017,2017,TV-MA,5 Seasons,Crime,"Eight thieves take hostages and lock themselves in the Royal Mint of Spain."
