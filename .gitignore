@@ -1,20 +1,10 @@
-# OS
-.DS_Store
+# dbt artifacts
+target/
+logs/
 
-# Python
-__pycache__/
-*.pyc
+# virtual environments
+.venv/
+**/.venv/
 
-# dbt secrets (never commit)
-dbt/profiles.yml
-
-# Airflow runtime files
-airflow/logs/
-airflow/airflow.db
-
-# Local sample data
-sample_data/
-
-# Environment files
-.env
-.envrc
+# old/broken projects
+netflix/
