@@ -1,10 +1,11 @@
+# Python virtual environments
+.venv/
+**/.venv/
+
 # dbt artifacts
 target/
 logs/
 
-# virtual environments
-.venv/
-**/.venv/
-
-# old/broken projects
-netflix/
+# OS / editor
+__pycache__/
+.DS_Store
