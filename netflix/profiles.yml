@@ -1,0 +1,13 @@
+netflix:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: LAXRLDI-HM88453
+      user: THISISYOGESHPATIL
+      password: Asdfghjkl@369369
+      role: ROLE_DBT
+      warehouse: WH_TRANSFORM
+      database: NETFLIX_DB
+      schema: DEV
+      threads: 4
