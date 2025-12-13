@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: dim_movies
+    columns:
+      - name: movie_id
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_users
+    columns:
+      - name: user_id
+        tests:
+          - not_null
+          - unique
+
+  - name: fct_movie_ratings
+    columns:
+      - name: movie_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_movies')
+                field: movie_id

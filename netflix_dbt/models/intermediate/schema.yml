@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: int_movie_ratings
+    columns:
+      - name: movie_id
+        tests:
+          - not_null
+          - unique
+
+  - name: int_user_activity
+    columns:
+      - name: user_id
+        tests:
+          - not_null
+          - unique
