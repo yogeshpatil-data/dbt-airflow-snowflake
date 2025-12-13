@@ -1,11 +1,69 @@
-# Python virtual environments
-.venv/
-**/.venv/
+############################
+# Python
+############################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 
-# dbt artifacts
+# Virtual environments (CRITICAL)
+.venv/
+venv/
+env/
+**/.venv/
+**/venv/
+**/env/
+
+############################
+# dbt
+############################
+# Compiled artifacts
 target/
+dbt_packages/
 logs/
 
-# OS / editor
-__pycache__/
+# dbt user state
+.partial_parse.msgpack
+.run_results.json
+manifest.json
+graph.gpickle
+semantic_manifest.json
+
+############################
+# Airflow
+############################
+# Airflow runtime
+airflow/logs/
+airflow/__pycache__/
+airflow/.env
+airflow/*.pid
+
+############################
+# Docker
+############################
+*.log
+docker-compose.override.yml
+
+############################
+# Snowflake / credentials
+############################
+profiles.yml
+.env
+.env.*
+
+############################
+# OS / Editor
+############################
 .DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+############################
+# Project safety
+############################
+# Old / experimental folders
+netflix/
+tmp/
+temp/
