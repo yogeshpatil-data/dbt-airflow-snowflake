@@ -1,3 +1,5 @@
+<img width="1715" height="628" alt="image" src="https://github.com/user-attachments/assets/025c779d-56af-4797-adae-acbe1af84e80" />
+
 # dbt + Snowflake Analytics Engineering Project
 
 ## 1. Project Overview
